@@ -18,14 +18,14 @@
   flex-direction: column;
 }
 
-.contact-info a {
+.contact_email {
   position: relative;
   color: var(--color-neutral-10);
   text-decoration: none;
   font-weight: 600;
 }
 
-.contact-info a::after {
+.contact_email::after {
   content: "";
   position: absolute;
   bottom: -4px;
@@ -36,7 +36,7 @@
   transition: width 0.3s ease;
 }
 
-.contact-info a:hover::after {
+.contact_email:hover::after {
   width: 100%;
 }
 

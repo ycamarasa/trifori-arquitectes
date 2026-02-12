@@ -43,6 +43,7 @@ export default function Contact() {
                   href={`mailto:${email}?subject=${subject}&body=${body}`}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="contact_email"
                 >
                   laia@trifori.com
                 </a>

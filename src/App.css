@@ -1,0 +1,84 @@
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  color: var(--color-neutral-10);
+}
+
+.layout {
+  max-width: 1600px;
+  margin: 80px auto 0;
+  padding: 80px 40px 100px;
+  background-color: var(--color-neutral-0);
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+}
+
+.layout p {
+  margin-bottom: 3rem;
+}
+
+.layout h1,
+.layout h2 {
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+/* =========================
+   Montserrat – Normal
+   ========================= */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Thin.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* RESPONSIVE */
+/* Tablet */
+@media (max-width: 1024px) {
+  .layout {
+    margin: 0;
+    padding: 140px 20px;
+  }
+}

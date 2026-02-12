@@ -1,0 +1,17 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 60px;
+}
+
+.projects__description {
+  margin-bottom: 50px;
+}
+
+/* RESPONSIVE */
+/* Small Desktop */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}

@@ -1,0 +1,82 @@
+.social-networks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-networks a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: transform 0.4s ease;
+}
+
+.social-networks svg {
+  fill: var(--color-neutral-10);
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+}
+
+.social-networks a:hover {
+  transform: scale(1.2);
+}
+
+.social-networks a.whatsapp {
+  width: auto;
+  height: 30px;
+  border-radius: 0;
+}
+
+.whatsapp svg {
+  width: 35px;
+  height: 35px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-neutral-10);
+  color: var(--color-neutral-0);
+  padding: 0.2rem 1rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: var(--color-neutral-10) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text,
+.tooltip:focus-within .tooltip-text {
+  opacity: 1;
+}
+
+.footer__copyright {
+  margin: 0 60px;
+  padding: 20px 0;
+  background-color: var(--color-neutral-0);
+  color: var(--color-neutral-10);
+}

@@ -1,0 +1,176 @@
+.service-detail-info {
+  margin: 0 auto 0;
+  max-width: 1600px;
+  padding: 0 40px 100px 40px;
+  font-size: 1rem;
+  line-height: 2rem;
+  scroll-margin-top: 150px;
+}
+
+.service-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.service-detail-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-detail-info ul {
+  margin: 0px 0 30px 40px;
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+}
+
+.service-detail-info p {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+}
+
+.service-detail .service-card h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services__grid .service-card {
+  align-items: flex-start;
+  padding-bottom: 30px;
+}
+
+.faq-link {
+  width: fit-content;
+  padding: 12px 15px;
+  margin-top: 12px;
+  color: var(--color-neutral-0);
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 0;
+  line-height: normal;
+  background: var(--color-neutral-10);
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.faq-link:hover {
+  background-color: var(--color-accent);
+  color: var(--color-neutral-10);
+}
+
+.instagram-medias {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.service-card {
+  background: var(--color-hover);
+  padding: 1.5rem;
+}
+
+.service-details__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.7rem;
+  margin-top: 24px;
+}
+
+.service-details__grid p {
+  margin-bottom: 20px;
+}
+
+/* SPINNER */
+.embed-wrapper.instagram {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  min-height: 600px;
+  margin: 0 auto;
+}
+
+.instagram-medias blockquote {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.instagram-medias .instagram-media-rendered {
+  opacity: 1;
+}
+
+.embed-spinner {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 2;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.embed-wrapper.instagram:has(.instagram-media-rendered) .embed-spinner {
+  display: none;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top-color: var(--color-neutral-10);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* RESPONSIVE */
+/* Small Desktop */
+@media (max-width: 1024px) {
+  .layout.service-detail {
+    padding-bottom: 60px;
+  }
+
+  .service-detail-info {
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+  .service-detail-grid {
+    gap: 60px;
+  }
+
+  .player-wrapper iframe {
+    width: 350px;
+    height: 300px;
+  }
+
+  @media (max-width: 768px) {
+    .service-detail-grid {
+      gap: 30px;
+    }
+
+    .service-detail-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .service-details__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

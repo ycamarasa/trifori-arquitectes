@@ -1,0 +1,15 @@
+.legal-pages h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 3rem;
+}
+
+.legal-pages ul {
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.legal-pages p {
+  margin-bottom: 15px;
+}

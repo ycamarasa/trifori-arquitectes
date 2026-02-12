@@ -1,0 +1,66 @@
+.contact-header {
+  margin-bottom: 80px;
+}
+
+.contact-content > * {
+  min-height: 100%;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 80px;
+}
+
+.contact-info {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info a {
+  position: relative;
+  color: var(--color-neutral-10);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-info a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--color-neutral-10);
+  transition: width 0.3s ease;
+}
+
+.contact-info a:hover::after {
+  width: 100%;
+}
+
+.contact-info h2 {
+  margin-bottom: 1.5rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+}
+
+.contact-page .social-networks {
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+/* Mapbox */
+.map-section {
+  height: 250px !important;
+}
+
+@media (max-width: 1024px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+}

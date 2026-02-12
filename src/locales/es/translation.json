@@ -1,0 +1,278 @@
+{
+  "header_about_us": "Conócenos",
+  "header_projects": "Proyectos",
+  "header_services": "Servicios",
+  "header_contact": "Contacto",
+
+  "homepage_meta_title": "Home Page | Trifori Architects",
+  "homepage_meta_description": "Trifori Arquitectes: estudio especializado en arquitectura, interiorismo y rehabilitación de espacios. Creamos proyectos personalizados y únicos.",
+  "homepage_alt_house": "Casa de Trifori Arquitectes",
+  "homepage_alt_bkg": "Trifori Arquitectes plano de arquitectura",
+  "homepage_title": "Diseñamos",
+  "homepage_title_2": "y construimos",
+  "homepage_title_3": "tu espacio",
+
+  "about_meta_title": "Conócenos | Trifori Arquitectes",
+  "about_meta_description": "Estudio de arquitectura especializado en rehabilitación, interiorismo y proyectos personalizados.",
+  "about__title_1": "Conócenos",
+  "about__alt-img": "Arquitecta Técnica Laia Fustegueras",
+  "about__title_2": "Quiénes somos",
+  "about_paragraph_1": "<strong>Trifori Arquitectes</strong> es un estudio creativo multidisciplinar con sede en Lleida, España. Desarrollamos proyectos de arquitectura, diseño de interiores y soluciones a medida, entendiendo cada encargo como una oportunidad para crear espacios con identidad y sentido.",
+  "about_paragraph_2": "Nuestro enfoque parte de una mirada sensible y rigurosa sobre laarquitectura. Somos un equipo de arquitectos y diseñadores apasionados por concebir espacios que inspiran y perduran, donde la relación entre las personas y su entorno se convierte en el eje central del proyecto.",
+  "about_paragraph_3": "El estudio está formado por <strong>Vicenç Rufach Fornons</strong>, arquitecto, y <strong>Laia Fustegueras Mir</strong>, arquitecta técnica. La combinación de una visión creativa y una sólida base técnica nos permite abordar cada proyecto de manera personalizada, cuidando tanto el concepto como su correcta ejecución.",
+  "about_paragraph_4": "Trabajamos a nivel nacional e internacional con clientes diversos en los ámbitos del retail, la vivienda plurifamiliar, el ámbito residencial y la vivienda unifamiliar. Nos dedicamos a la arquitectura, la dirección técnica y la construcción, acompañando cada proyecto desde la idea inicial hasta su materialización final.",
+  "about_paragraph_5": "Queremos hacer realidad tu proyecto, concompromiso, precisión y sensibilidad.",
+  "about_paragraph_": "Nuestro objetivo es dar forma a espacios honestos, funcionales y duraderos, capaces de responder a las necesidades reales de quienes los habitan.",
+  "about_services_title": "Qué hacemos",
+  "about_service1_title": "Obra nueva",
+  "about_service1_description": "Edificios plurifamiliares, residencial y viviendas unifamiliar.",
+  "about_service2_title": "Rehabilitaciones",
+  "about_service2_description": "Transformación y mejora de espacios existentes.",
+  "about_service3_title": "ITE",
+  "about_service3_description": "Inspección Técnica de Edificios y rehabilitaciones.",
+  "about_service4_title": "Cédulas de habitabilidad",
+  "about_service4_description": "Gestión completa de certificaciones.",
+  "about_service5_title": "Eficiencia energética",
+  "about_service5_description": "Certificados y asesoramiento energético.",
+  "about_service6_title": "Ayudas",
+  "about_service6_description": "Tramitación de ayudas, Next Generation.",
+  "about_service7_title": "Accesibilidad",
+  "about_service7_description": "Supresión de barreras arquitectónicas.",
+  "about_service8_title": "Difusión cultural",
+  "about_service8_description": "Entrevistas, divulgación y colaboraciones.",
+  "about_link": "Más información +",
+  "about_aria-label_link": "sobre",
+
+  "projects_meta_title": "Proyectos | Trifori Architects",
+  "projects_meta_description": "Descubre los proyectos de Trifori Arquitectes: rehabilitación, interiorismo y soluciones arquitectónicas personalizadas.",
+  "projects_title": "Proyectos",
+  "projects_description": "Esta sección presenta una selección de algunos de los proyectos que hemos desarrollado durante más de veinte años de experiencia. Cada proyecto refleja nuestro enfoque en arquitectura, atención al detalle y el diálogo entre espacio, contexto y personas. Un escaparate de un camino construido con experiencia, compromiso y pasión por el oficio.",
+  "projects_aria-label_buttons": "Ver más imágenes del proyecto",
+  "projects": {
+    "items": {
+      "1": {
+        "title": "Edificio Cappont",
+        "location": "Lleida",
+        "images": ["/assets/p1.webp"],
+        "description": "Vivienda plurifamiliar moderna diseñada con soluciones funcionales y estéticas."
+      },
+      "2": {
+        "title": "Casa Ilerda",
+        "location": "Lleida",
+        "images": ["/assets/p2.webp"],
+        "description": "Casa unifamiliar con diseño contemporáneo que integra espacios abiertos y luminosos."
+      },
+      "3": {
+        "title": "Rehabilitación Edificio Centro",
+        "location": "Lleida",
+        "images": ["/assets/p3_1.webp", "/assets/p3_2.webp"],
+        "description": "Renovación de un edificio histórico en el centro, respetando su carácter original."
+      },
+      "4": {
+        "title": "Rehabilitación vestíbulo",
+        "location": "Lleida",
+        "images": ["/assets/p4_1.webp", "/assets/p4_2.webp"],
+        "description": "Actualización del vestíbulo de un edificio, combinando funcionalidad y estética moderna."
+      },
+      "5": {
+        "title": "Rehabilitación hall",
+        "location": "Lleida",
+        "images": ["/assets/p5.webp"],
+        "description": "Intervención en el vestíbulo para mejorar accesibilidad y renovar espacios comunes."
+      },
+      "6": {
+        "title": "Ascensor Colegio",
+        "location": "Lleida",
+        "images": ["/assets/p6.webp"],
+        "description": "Instalación de ascensor para eliminar barreras arquitectónicas y mejorar movilidad."
+      },
+      "7": {
+        "title": "Vivienda Alcarràs",
+        "location": "Alcarràs",
+        "images": ["/assets/p7.webp"],
+        "description": "Vivienda unifamiliar con estilo clásico, espacios abiertos y bien conectados."
+      },
+      "8": {
+        "title": "Casa Unifamiliar",
+        "location": "Lleida",
+        "images": ["/assets/p8.webp"],
+        "description": "Casa unifamiliar contemporánea con diseño funcional y cuidado en los detalles."
+      },
+      "9": {
+        "title": "Edificio Lima (Perú)",
+        "location": "Lleida",
+        "images": ["/assets/p9.webp"],
+        "description": "Edificio plurifamiliar pensado para ofrecer confort, accesibilidad y estética moderna."
+      },
+      "10": {
+        "title": "Edificio Lleida",
+        "location": "Lleida",
+        "images": ["/assets/p10.webp"],
+        "description": "Proyecto residencial plurifamiliar con espacios luminosos y diseño contemporáneo."
+      },
+      "11": {
+        "title": "Conjunto residencial",
+        "location": "Lleida",
+        "images": ["/assets/p11.webp"],
+        "description": "Edificio residencial con enfoque en confort, accesibilidad y estética moderna."
+      },
+      "12": {
+        "title": "Edificio Pardinyes",
+        "location": "Lleida",
+        "images": ["/assets/p12.webp"],
+        "description": "Conjunto residencial con soluciones funcionales, espacios luminosos y diseño contemporáneo."
+      }
+    }
+  },
+
+  "faq_meta_title": "FAQ | Trifori Architects",
+  "faq_meta_description": "Consulta las preguntas frecuentes de Trifori Arquitectes sobre nuestros servicios de arquitectura, interiorismo y rehabilitación de espacios.",
+  "faq_title": "Servicios",
+  "details": {
+    "2": {
+      "title": "Rehabilitaciones y Reformas",
+      "paragraph1": "El Colegio de Aparejadores, Arquitectos Técnicos e Ingenieros de la Edificación de Lleida (CAATLL) ha iniciado una campaña de concienciación sobre la importancia de la rehabilitación con el programa REHABILITA.",
+      "paragraph2": "La <strong>Laia Fustegueras Mir</strong>, arquitecta técnica de TRIFORI ARQUITECTES, colabora con el Colegio de Aparejadores con el objetivo de explicar qué es la ITE y por qué es importante que los edificios la pasen.",
+      "steps": [
+        "<strong>El Medio Ambiente.</strong> La clave es recuperar los edificios existentes y reutilizarlos adaptándolos a nuestras necesidades.",
+        "<strong>Mantenimiento de la trama y crecimiento urbano sostenible.</strong> Si rehabilitamos los cascos urbanos de las ciudades creamos ciudades más prácticas, accesibles, proporcionadas y, en definitiva, mejores formas de vivir.",
+        "<strong>La cohesión social y la convivencia.</strong> Rehabilitando evitamos la gran segregación que se produce en barrios y edificios antiguos frente a zonas y barrios nuevos.",
+        "<strong>La economía.</strong> Rehabilitando damos trabajo a mucha gente y permite ahorrar respecto a la compra de una vivienda nueva."
+      ],
+      "paragraph3": "Las intervenciones que más se llevan a cabo en rehabilitación son las mejoras en eficiencia energética, los cambios en distribución y materiales interiores, la accesibilidad, la conservación y el mantenimiento de los edificios.",
+      "paragraph4": "En TRIFORI ARQUITECTES podemos ayudarte en cualquiera de estos temas. ¡Contáctanos!"
+    },
+    "3": {
+      "title": "Inspección Técnica de Edificios (ITE)",
+      "paragraph1": "Nos permite realizar una radiografía del estado de conservación y de la necesidad de mantenimiento o rehabilitación de un edificio. Es obligatoria en edificios de <strong>más de 45 años</strong> de acuerdo con el decreto 67/2015 y es un requisito indispensable cuando tramitamos ayudas a la rehabilitación o para la supresión de barreras arquitectónicas.",
+      "paragraph2": "Pero realmente lo importante de realizar la ITE es que permite a los propietarios de los edificios planificar la rehabilitación y el mantenimiento de los mismos. De esta manera no se encuentran con un hecho sobrevenido, por ejemplo un desprendimiento de fachada que puede derivar en una orden de ejecución que deben reparar en un plazo muy corto de tiempo, sin tiempo para pedir presupuestos… Si se anticipan realizando la ITE evitamos la improvisación, pudiendo detectar las deficiencias de los edificios, ya sean leves, importantes, graves o muy graves, y de este modo adelantarnos al problema. Esto permite disponer de tiempo para solicitar presupuestos y buscar la mejor solución, cosa que de otro modo no es posible por falta de margen de maniobra.",
+      "paragraph3": "Además, en muchas ocasiones permite detectar a tiempo algunas deficiencias actualmente leves y de bajo coste de reparación que, si se dejan pasar, pueden convertirse en graves y suponer un problema mayor para los propietarios o la comunidad.",
+      "paragraph4": "El objetivo final de la inspección es que el edificio pueda obtener el certificado de aptitud con la calificación de APTO, con una validez de 10 años, y que los propietarios dispongan de unas pautas de mantenimiento que permitan que los edificios sean, básicamente, más seguros para todos."
+    },
+    "4": {
+      "title": "Cédulas de habitabilidad de segunda ocupación",
+      "paragraph1": "¿Tienes que alquilar o vender una vivienda y no sabes si tienes la cédula vigente? ¿La tienes que renovar? ¿Tu vivienda no tiene cédula y la necesitas?",
+      "paragraph2": "La cédula de habitabilidad es un documento administrativo que acredita que una vivienda cumple las condiciones mínimas de habitabilidad que establece la normativa vigente y es apta para ser destinada a residencia de personas.",
+      "paragraph3": "Para obtener la cédula de habitabilidad de segunda ocupación hay que seguir los siguientes pasos:",
+      "steps": [
+        "Ponte en contacto con nosotros.",
+        "Comprobaremos si la vivienda tiene cédula, si está caducada o vigente.",
+        "Iremos a la vivienda para realizar la inspección.",
+        "Realizaremos el certificado técnico y tramitaremos la cédula telemáticamente, pagando la tasa a Vivienda.",
+        "Cuando nos envíen la cédula en pdf te la haremos llegar."
+      ],
+      "paragraph4": "Como ves, es más fácil de lo que parece, además nos encargamos de todo el proceso hasta la obtención de la cédula."
+    },
+    "5": {
+      "title": "Eficiencia Energética",
+      "paragraph1": "¿Tienes que alquilar o vender una vivienda y te piden el certificado energético? ¿Quieres solicitar ayudas a la rehabilitación? ¿Deseas mejorar la eficiencia energética de una vivienda o edificio?",
+      "paragraph2": "<strong>La etiqueta de eficiencia energética</strong> es el distintivo que señala el nivel de calificación de eficiencia energética obtenido por el edificio o partes del edificio. <strong>La calificación de eficiencia energética</strong> es el resultado del cálculo del consumo de energía necesario para satisfacer la demanda energética del edificio en condiciones normales de funcionamiento y ocupación. Clasifica los edificios dentro de una escala de siete letras, donde la letra A corresponde al edificio más eficiente y la letra G al menos eficiente. Se compara el consumo de energía y las emisiones de CO2 del edificio con uno de referencia de tipología y localización similar.",
+      "paragraph3": "¿Qué necesito?",
+      "steps": [
+        "Ponte en contacto con nosotros.",
+        "Realizaremos una visita a la vivienda o edificio para definir cerramientos, huecos practicables, instalaciones, configuración del inmueble o edificio, orientación…",
+        "Introduciremos todos estos datos en un aplicativo que generará el informe de eficiencia energética con la calificación correspondiente.",
+        "Tramitaremos la obtención de la etiqueta energética en el ICAEN y te la enviaremos en pdf cuando la recibamos."
+      ],
+      "paragraph4": "Como ves, es más fácil de lo que parece, además nos encargamos de todo el proceso hasta la obtención de la etiqueta energética.",
+      "paragraph5": "Podemos obtener la etiqueta de una sola vivienda o de un edificio completo generando una única calificación energética.",
+      "paragraph6": "El certificado energético es imprescindible en compraventas de viviendas, alquileres y en la tramitación de ayudas a la rehabilitación.",
+      "paragraph7": "Además, te permite mejorar la eficiencia de tu vivienda o edificio mediante las medidas de mejora reflejadas en el informe, incrementando así su calificación energética."
+    },
+    "6": {
+      "title": "Ayudas Next Generation",
+      "paragraph1": "Seguro que habéis oído hablar de ellas, ya que los “Next Generation” están en boca de todos. Existen ayudas para prácticamente todo lo relacionado con la eficiencia energética, así como para la digitalización de empresas o la adquisición de vehículos eléctricos, pero centrémonos en lo que nos interesa.",
+      "paragraph2": "En TRIFORI ARQUITECTES estamos inmersos en la tramitación de estas ayudas de REHABILITACIÓN ENERGÉTICA DE LOS EDIFICIOS, tanto del PROGRAMA 3 como del PROGRAMA 4.",
+      "paragraph3": "Si estás pensando en rehabilitar tu vivienda (cambio de ventanas, cambio de calefacción, colocación de aislamiento en fachadas,…) consúltanos.",
+      "paragraph4": "Lamentablemente, por el momento, NO HAY AYUDAS PARA LA SUPRESIÓN DE BARRERAS ARQUITECTÓNICAS, salvo que se incluya dentro de la rehabilitación energética del edificio."
+    },
+    "8": {
+      "title": "Difusión cultural",
+      "paragraph1": "La Laia Fustegueras Mir, arquitecta técnica de TRIFORI ARQUITECTES, colabora con el Colegio de Aparejadores con el objetivo de explicar qué es la ITE y por qué es importante que los edificios la pasen.",
+      "paragraph2": "https://www.youtube.com/watch?v=4ZL1z63yIYg",
+      "paragraph3": "En este vídeo podrás ver nuestra participación en el programa de Lleida TV – Diari de Nit – Magazine, presentado por Marivi Chacón, donde junto al aparejador Federic Lorente conversamos sobre las ITE.",
+      "paragraph4": "https://www.instagram.com/p/CIofowrohBw/"
+    }
+  },
+
+  "contact_meta_title": "Contacto | Trifori Architects",
+  "contact_meta_description": "Contacta con Trifori Arquitectes para solicitar información sobre nuestros servicios de arquitectura, interiorismo y rehabilitación de espacios.",
+  "contact_title": "Hablemos de tu proyecto",
+  "contact_subtitle": "Cada proyecto comienza con una conversación. Cuéntanos tu idea y estudiaremos cómo ayudarte a hacerla realidad. Solicita tu presupuesto sin compromiso y empezamos a darle forma a tu proyecto.",
+  "contact_address": "Calle de Jaume II, 9, 25001 Lleida",
+  "contact_email_subject": "Consulta proyecto",
+  "contact_email_body": "Hola Laia,",
+
+  "tooltip_whatsapp": "Enviar WhatsApp",
+  "message_whatsapp": "Hola, me interesa contactarlos para hablar de mi proyecto.",
+
+  "form_name": "Nombre",
+  "form_lastName": "Apellido",
+  "form_email": "Email",
+  "form_phone": "Teléfono",
+  "form_message": "Cuéntanos tu proyecto",
+  "form_button": "Enviar",
+  "form_sending": "Enviado",
+  "form_success": "¡Su mensaje se ha enviado correctamente! Gracias por contactarnos. Nos pondremos en contacto con usted en breve.",
+  "form_error": "Se ha producido un error al enviar el formulario. Disculpa las molestias. <br/> Puedes enviarnos un email a laia@trifori.com",
+  "form_field_error": "Demasiado corto",
+  "form_field_email_error": "No es válido",
+
+  "privacyPolicy_meta_title": "Política de Privacidad | Trifori Architects",
+  "privacyPolicy_meta_description": "Consulta la Política de Privacidad de Trifori Arquitectes y conoce cómo protegemos y gestionamos tus datos personales de manera segura.",
+  "privacyPolicy_title": "Política de Privacidad",
+  "sections": {
+    "controller": {
+      "title": "Responsable del tratamiento",
+      "responsible": "Responsable",
+      "company": "TRIFORI ARQUITECTES, SLP",
+      "vat": "NIF/CIF",
+      "address": "Domicilio",
+      "email": "Correo electrónico"
+    },
+    "purpose": {
+      "title": "Finalidad del tratamiento",
+      "text": "Los datos personales facilitados a través de este sitio web serán utilizados únicamente para atender consultas realizadas mediante el formulario de contacto o a través del correo electrónico."
+    },
+    "data": {
+      "title": "Datos personales tratados",
+      "intro": "Los datos que se pueden tratar incluyen:",
+      "items": [
+        "Nombre y apellidos",
+        "Dirección de correo electrónico",
+        "Contenido del mensaje"
+      ]
+    },
+    "legalBasis": {
+      "title": "Legitimación",
+      "text": "La base legal para el tratamiento de los datos es el consentimiento del usuario, otorgado al enviar el formulario de contacto."
+    },
+    "retention": {
+      "title": "Conservación de los datos",
+      "text": "Los datos personales se conservarán durante el tiempo necesario para atender la solicitud del usuario y, en su caso, para cumplir con las obligaciones legales aplicables."
+    },
+    "sharing": {
+      "title": "Cesión de datos a terceros",
+      "text": "No se cederán datos personales a terceros, salvo obligación legal."
+    },
+    "rights": {
+      "title": "Derechos del usuario",
+      "intro": "El usuario puede ejercer los siguientes derechos en relación con sus datos personales:",
+      "items": [
+        "Derecho de acceso",
+        "Derecho de rectificación",
+        "Derecho de supresión",
+        "Derecho de oposición",
+        "Derecho a la limitación del tratamiento",
+        "Derecho a la portabilidad de los datos"
+      ],
+      "exercise": "Para ejercer estos derechos, puede enviar una solicitud al correo electrónico indicado anteriormente.",
+      "claim": "Asimismo, tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD):"
+    }
+  },
+
+  "footer_title": "Trabajemos juntos en tu próximo proyecto",
+  "footer_description": "Arquitectura clásica con mirada contemporánea",
+  "footer_copyright": "Trifori Arquitectes. Todos los derechos reservados",
+  "footer_made_by": "Creado con cuidado · Diseñado y desarrollado por <a href='https://github.com/ycamarasa'>y.camarasa</a>"
+}

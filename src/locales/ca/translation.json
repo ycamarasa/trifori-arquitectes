@@ -1,0 +1,278 @@
+{
+  "header_about_us": "Coneix-nos",
+  "header_projects": "Projectes",
+  "header_services": "Serveis",
+  "header_contact": "Contacte",
+
+  "homepage_meta_title": "Home Page | Trifori Architects",
+  "homepage_meta_description": "Trifori Arquitectes: estudi especialitzat en arquitectura, interiorisme i rehabilitació d'espais. Creem projectes personalitzats i únics.",
+  "homepage_alt_house": "Casa de Trifori Arquitectes",
+  "homepage_alt_bkg": "Trifori Arquitectes plano de arquitectura",
+  "homepage_title": "Dissenyem",
+  "homepage_title_2": "i construïm",
+  "homepage_title_3": "el teu espai",
+
+  "about_meta_title": "Coneix-nos | Trifori Arquitectes",
+  "about_meta_description": "Estudi d'arquitectura especializat en rehabilitació, interiorisme i projectes personalizats.",
+  "about__title_1": "Coneix-nos",
+  "about__alt-img": "Arquitecta Tècnica Laia Fustegueras",
+  "about__title_2": "Qui som",
+  "about_paragraph_1": "<strong>Trifori Arquitectes</strong> és un estudi creatiu multidisciplinari amb seu a Lleida, Espanya. Desenvolupem projectes d’arquitectura, disseny d’interiors i solucions a mida, entenent cada encàrrec com una oportunitat per crear espais amb identitat i sentit.",
+  "about_paragraph_2": "El nostre enfocament parteix d’una mirada sensible i rigorosa sobre l’arquitectura. Som un equip d’arquitectes i dissenyadors apassionats per concebre espais que inspiren i perduren, on la relació entre les persones i el seu entorn esdevé l’eix central del projecte.",
+  "about_paragraph_3": "L’estudi està format per <strong>Vicenç Rufach Fornons</strong>, arquitecte, i <strong>Laia Fustegueras Mir</strong>, arquitecta tècnica. La combinació d’una visió creativa i una sòlida base tècnica ens permet abordar cada projecte de manera personalitzada, cuidant tant el concepte com la seva correcta execució.",
+  "about_paragraph_4": "Treballem a nivell nacional i internacional amb clients diversos en els àmbits del retail, l’habitatge plurifamiliar, l’àmbit residencial i l’habitatge unifamiliar. Ens dediquem a l’arquitectura, la direcció tècnica i la construcció, acompanyant cada projecte des de la idea inicial fins a la seva materialització final.",
+  "about_paragraph_5": "Volem fer realitat el teu projecte, amb compromís, precisió i sensibilitat.",
+  "about_paragraph_6": "<b>El nostre objectiu és donar forma a espais honestos, funcionals i duradors, capaços de respondre a les necessitats reals de qui els habita. Volem fer realitat el teu projecte, amb compromís, precisió i sensibilitat.</b>",
+  "about_services_title": "Què fem",
+  "about_service1_title": "Obra nova",
+  "about_service1_description": "Edificis plurifamiliars, residencials i habitatges unifamiliars.",
+  "about_service2_title": "Rehabilitacions",
+  "about_service2_description": "Transformació i millora d’espais existents.",
+  "about_service3_title": "ITE",
+  "about_service3_description": "Inspecció Tècnica d’Edificis i rehabilitacions.",
+  "about_service4_title": "Cèdules d’habitabilitat",
+  "about_service4_description": "Gestió completa de certificacions.",
+  "about_service5_title": "Eficiència energètica",
+  "about_service5_description": "Certificats i assessorament energètic.",
+  "about_service6_title": "Ajuts",
+  "about_service6_description": "Tramitació d’ajuts, Next Generation.",
+  "about_service7_title": "Accessibilitat",
+  "about_service7_description": "Supressió de barreres arquitectòniques.",
+  "about_service8_title": "Difusió cultural",
+  "about_service8_description": "Entrevistes, divulgació i col·laboracions.",
+  "about_link": "Més informació +",
+  "about_aria-label_link": "sobre",
+
+  "projects_meta_title": "Projectes | Trifori Architects",
+  "projects_meta_description": "Descobreix els projectes de Trifori Arquitectes: rehabilitació, interiorisme i solucions arquitectòniques personalitzades.",
+  "projects_title": "Projectes",
+  "projects_description": "Aquesta secció presenta una selecció d’alguns dels projectes que hem desenvolupat durant més de vint anys d’experiència. Cada projecte reflecteix el nostre enfocament en arquitectura, l’atenció al detall i el diàleg entre espai, context i persones. Una mostra d’un camí construït amb experiència, compromís i passió per l’ofici.",
+  "projects_aria-label_buttons": "Veure més imatges del projecte",
+  "projects": {
+    "items": {
+      "1": {
+        "title": "Edifici Cappont",
+        "location": "Lleida",
+        "images": ["/assets/p1.webp"],
+        "description": "Habitatge plurifamiliar modern dissenyat amb solucions funcionals i estètiques."
+      },
+      "2": {
+        "title": "Casa Ilerda",
+        "location": "Lleida",
+        "images": ["/assets/p2.webp"],
+        "description": "Casa unifamiliar amb disseny contemporani que integra espais oberts i lluminosos."
+      },
+      "3": {
+        "title": "Rehabilitació Edifici Centre",
+        "location": "Lleida",
+        "images": ["/assets/p3_1.webp", "/assets/p3_2.webp"],
+        "description": "Renovació d’un edifici històric al centre, respectant el seu caràcter original."
+      },
+      "4": {
+        "title": "Rehabilitació vestíbul",
+        "location": "Lleida",
+        "images": ["/assets/p4_1.webp", "/assets/p4_2.webp"],
+        "description": "Actualització del vestíbul d’un edifici, combinant funcionalitat i estètica moderna."
+      },
+      "5": {
+        "title": "Rehabilitació hall",
+        "location": "Lleida",
+        "images": ["/assets/p5.webp"],
+        "description": "Intervenció al vestíbul per millorar l’accessibilitat i renovar els espais comuns."
+      },
+      "6": {
+        "title": "Ascensor Col·legi",
+        "location": "Lleida",
+        "images": ["/assets/p6.webp"],
+        "description": "Instal·lació d’un ascensor per eliminar barreres arquitectòniques i millorar la mobilitat."
+      },
+      "7": {
+        "title": "Habitatge Alcarràs",
+        "location": "Alcarràs",
+        "images": ["/assets/p7.webp"],
+        "description": "Habitatge unifamiliar d’estil clàssic, amb espais amplis i ben connectats."
+      },
+      "8": {
+        "title": "Casa Unifamiliar",
+        "location": "Lleida",
+        "images": ["/assets/p8.webp"],
+        "description": "Casa unifamiliar contemporània amb disseny funcional i cura en els detalls."
+      },
+      "9": {
+        "title": "Edifici Lima (Perú)",
+        "location": "Lleida",
+        "images": ["/assets/p9.webp"],
+        "description": "Edifici plurifamiliar pensat per oferir confort, accessibilitat i estètica moderna."
+      },
+      "10": {
+        "title": "Edifici Lleida",
+        "location": "Lleida",
+        "images": ["/assets/p10.webp"],
+        "description": "Projecte residencial plurifamiliar amb espais lluminosos i disseny contemporani."
+      },
+      "11": {
+        "title": "Conjunt residencial",
+        "location": "Lleida",
+        "images": ["/assets/p11.webp"],
+        "description": "Edifici residencial amb enfocament en confort, accessibilitat i estètica moderna."
+      },
+      "12": {
+        "title": "Edifici Pardinyes",
+        "location": "Lleida",
+        "images": ["/assets/p12.webp"],
+        "description": "Conjunt residencial amb solucions funcionals, espais lluminosos i disseny contemporani."
+      }
+    }
+  },
+
+  "faq_meta_title": "FAQ | Trifori Architects",
+  "faq_meta_description": "Consulta les preguntes freqüents de Trifori Arquitectes sobre els nostres serveis d'arquitectura, interiorisme i rehabilitació d'espais.",
+  "faq_title": "Serveis",
+  "details": {
+    "2": {
+      "title": "Rehabilitacions i Reformes",
+      "paragraph1": "Aparelladors Lleida, Col·legi d’Aparelladors, Arquitèctes Tècnics i Enginyers de l’Edificació de Lleida (CAATLL), ha iniciat una campanya de conscienciació de la importància que té la rehabilitació amb el programa REHABILITA.",
+      "paragraph2": "La <strong>Laia Fustegueras Mir</strong>, arquitecta tècnica de TRIFORI ARQUITECTES, col·labora amb el Col·legi d’Aparelladors per tal de d’explicar que és la ITE i perquè es important que els edificis la passin.",
+      "steps": [
+        "<strong>El Medi Ambient.</strong> La clau es recuperar els edificis existents i reutilitzar-los adaptant-los a les nostres necessitats.",
+        "<strong>Manteniment de trama i creixement urbà sostenible.</strong> Si rehabilitem els casc urbans de les ciutats creem ciutats més pràctiques, accessibles, proporcinades i en definitiva creem millors maneres de viure.",
+        "<strong>La cohesió social i la convivència.</strong> Rehabilitant evitem la gran segregació que es produeix en barris i edificis antics enfront xones i barris nous.",
+        "<strong>L’economia.</strong> Rehabilitant donem feina a molta gent, i permet estalviar respecte a la compra d’un nou habitatge."
+      ],
+      "paragraph3": "Les intervencions que més es duen a terme en rehabilitació son les millores en eficiència energètica, els canvis en ditribució i materials interiors, accessibilitat, conservació i maneteniment dels edificis.",
+      "paragraph4": "A TRIFORI ARQUITECTES et podem ajudar en qualsevol d’aquests temes. Contacta’ns!"
+    },
+    "3": {
+      "title": "Inspecció Tècnica d'Edificis (ITE)",
+      "paragraph1": "Ens permet fer una radiografia de l’estat de conservació i de la necessitat de manteniment o rehabilitació d’un edifici, es obligatòria en edificis de <strong>més de 45 anys</strong> d’acord amb el decret 67/2015 i es un requisit indispensable quan tramitem ajuts a la rehabilitació, o per supressió de barreres arquitectòniques.",
+      "paragraph2": "Però realment l’important de fer la ITE es que permet es als propietaris dels edificis una planificació de la rehabilitació i del manteniment d’aquest. D’aquesta manera no es troben amb un fet sobrevingut, per exemple amb un despreniment de façana que pot derivar amb una ordre d’execució que han de reparar amb un termini molt curt de temps, sense temps de fer pressupost … Si s’anticipen a fer la ITE evitem la improvització podent detectar les deficiències que tenen els edificis, lleus, importants, greus o molts greus, i d’aquesta manera es poden anticipat al problema , i per tant es té temps de demanar pressupostos, i de buscar la millor solució que de l’altra manera no es possible perquè no es té marge de maniobra.",
+      "paragraph3": "També, moltes vegades, el que els permet agafar a temps algunes deficiències actualment lleus i que tenen un cost de reparació baix però que si deixem passar el temps es poden convertir en greus i representar un problema més gran als propietaris o comunitat.",
+      "paragraph4": "L’objectiu final de la inspecció es que l’edifici pugui aconseguir el certificat d’aptitud amb la qualificació de APTE que té una validesa de 10 anys. I també que els propietaris tinguin unes pautes de manteniment que permeti que els edificis siguin, bàsicament, més segurs per tothom."
+    },
+    "4": {
+      "title": "Cèdules d'habitablitat de segona ocupació",
+      "paragraph1": "Has de llogar o vendre un habitatge i no saps si tens la cèdula vigent? L’has de renovar? El teu habitatge no té cèdula i la necessites?",
+      "paragraph2": "La cèdula d’habitabilitat és un document administratiu que acredita que un habitatge compleix les condicions mínimes d’habitabilitat que preveu la normativa vigent i és apte per a ser destinat a residència de persones.",
+      "paragraph3": "Per obtenir la cèdula d’habitabilitat de segona ocupació cal seguir els següents passos:",
+      "steps": [
+        "Posa’t en contacte amb nosaltres.",
+        "Mirarem si l’habitatge té cèdula o no, si està caducada o vigent.",
+        "Vindrem a l’habitatge a fer la inspecció.",
+        "Realitzarem el certificat tècnic i et tramitarem la cedula telemàticament, pagant la taxa a Habitatge.",
+        "Quan ens enviin la cèdula en pdf te la farem arribar."
+      ],
+      "paragraph4": "Ja veus que és més fàcil del que sembla, a més ens encarreguem de tot el procès fins a l’obtenció de la cèdula."
+    },
+    "5": {
+      "title": "Eficència Energètica",
+      "paragraph1": "Has de llogar o vendre un habitatge i et demanen el CE? Voleu demanar ajuts a la rehabilitació? Voleu fer una millora de l’eficiència energètica d’un habitatge o edifici?",
+      "paragraph2": "<strong>L’etiqueta d’eficiència energètica</strong> és el distintiu que assenyala el nivell de qualificació d’eficiència energètica obtinguda per l’edifici o parts d’edifici. <strong>La qualificació d’eficiència energètica</strong> és el resultat del càlcul del consum d’energia necessari per satisfer la demanda energètica de l’edifici en condicions normals de funcionament i ocupació. Classifica els edificis dins d’una escala de set lletres, en què la lletra A correspon a l’edifici més eficient i la lletra G a l’edifici menys eficient. Es compara el consum d’energia i les emissions de CO2 de l’edifici amb un de referència de tipologia i localització similar.",
+      "paragraph3": "Què necessito?",
+      "steps": [
+        "Posa’t en contacte amb nosaltres.",
+        "Farem una visita a l'habitatge o edifici per tal de definir tancaments, tancaments practicables, instal·lacions, configuració de l’inmoble o edifici, orientació….",
+        "Totes aquestes dades les introduirem en un aplicatiu generant així l'informe d'eficiència energètica que ens dirà la qualificació d'eficiència energètica de l'habitatge o edifici.",
+        "Farem el tràmit per la obtenció de l'etiqueta energètica a l'ICAEN i te l'enviarem en pdf quan la rebem."
+      ],
+      "paragraph4": "Ja veus que es mès fàcil del que sembla, a més ens encarreguem de tot el procés fins a l'obtenció de la etiqueta energètica.",
+      "paragraph5": "Podem obtenir l’etiqueta d’un sol habitatge o bé d’un edifici sencer generant una única qualificació energètica.",
+      "paragraph6": "El certificat energètic es imprescindible en compra-vendes d’habitatges, lloguers, i en tramitació d’ajuts a la rehabilitació.",
+      "paragraph7": "A més et permet, mitjançant les mesures de millora reflexades en l’informe, millorar l’eficiència del teu habitatge o edifici i d’aquesta manera millorar la seva qualificació."
+    },
+    "6": {
+      "title": "Ajuts Next Generation",
+      "paragraph1": "Segur que n’heu sentit a parlar, i es que els “Next Generation” están en boca de tothom. Hi ha ajudes pràcticament per tot el que fa a referència a la eficiència energètica, però també per posar al dia digitalment les empreses, l’adquisició de cotxes elèctrics, però anem al que ens interessa.",
+      "paragraph2": "A TRIFORI ARQUITECTES estem inmersos en la tramitació d’aquestes ajudes de REHABILITACIÓ ENERGÈTICA DELS EDIFICIS, tant del PROGRAMA 3 com del PROGRAMA 4.",
+      "paragraph3": "Si estàs pensant en rehabilitar el teu habitatge (canvi de finestres, canvi de calefacció, col·locació d’aïllament en façanes,…) consulta’ns.",
+      "paragraph4": "Malauradament, de moment, NO HI HA AJUDES PER SUPRESSIÓ DE BARRERES ARQUITECTÒNIQUES, a no ser que s’inclogui en la rehabilitació energètica de l’edifici."
+    },
+    "8": {
+      "title": "Difusió cultural",
+      "paragraph1": "La Laia Fustegueras Mir, arquitecta tècnica de TRIFORI ARQUITECTES, col·labora amb el Col·legi d’Aparelladors per tal de d’explicar que és la ITE i perquè es important que els edificis la passin.",
+      "paragraph2": "https://www.youtube.com/watch?v=4ZL1z63yIYg",
+      "paragraph3": "En aquest video podràs veure al programa de Lleida TV – Diari de Nit- Magazin, presentat per la Marivi Chacón, on juntament amb l’aparellador Federic Lorente vam conversar sobre les ITEs.",
+      "paragraph4": "https://www.instagram.com/p/CIofowrohBw/"
+    }
+  },
+
+  "contact_meta_title": "Contacte | Trifori Architects",
+  "contact_meta_description": "Contacta amb Trifori Arquitectes per sol·licitar informació sobre els nostres serveis d'arquitectura, interiorisme i rehabilitació d'espais.",
+  "contact_title": "Parlem del teu projecte",
+  "contact_subtitle": "Cada projecte comença amb una conversa. Explica'ns la teva idea i estudiarem com ajudar-te a fer-la realitat. Sol·licita el teu pressupost sense compromís i comencem a donar forma al teu projecte.",
+  "contact_address": "Carrer de Jaume II, 9, 25001 Lleida",
+  "contact_email_subject": "Consulta projecte",
+  "contact_email_body": "Hola Laia,",
+
+  "tooltip_whatsapp": "Enviar WhatsApp",
+  "message_whatsapp": "Hola, m'interessa contactar-los per parlar del meu projecte.",
+
+  "form_name": "Nom",
+  "form_lastName": "Cognom",
+  "form_email": "Correu electrònic",
+  "form_phone": "Telèfon",
+  "form_message": "Explica’ns el teu projecte",
+  "form_button": "Enviar",
+  "form_sending": "Enviat",
+  "form_success": "El teu missatge s’ha enviat correctament! Gràcies per contactar amb nosaltres. <br/> Ens posarem en contacte amb tu ben aviat.",
+  "form_error": "Hi ha hagut un error al enviar el formulari. Disculpa les molésties. <br/> Pots enviar-nos un email a laia@trifori.com",
+  "form_field_error": "Massa curt",
+  "form_field_email_error": "No és vàlid",
+
+  "privacyPolicy_meta_title": "Política de Privacitat | Trifori Architects",
+  "privacyPolicy_meta_description": "Consulta la Política de Privacitat de Trifori Arquitectes i descobreix com protegim i gestionem les teves dades personals de manera segura.",
+  "privacyPolicy_title": "Política de Privacitat",
+  "sections": {
+    "controller": {
+      "title": "Responsable del tractament",
+      "responsible": "Responsable",
+      "company": "TRIFORI ARQUITECTES, SLP",
+      "vat": "NIF/CIF",
+      "address": "Domicili",
+      "email": "Correu electrònic"
+    },
+    "purpose": {
+      "title": "Finalitat del tractament",
+      "text": "Les dades personals facilitades a través d’aquest lloc web s’utilitzaran únicament per atendre les consultes realitzades mitjançant el formulari de contacte o el correu electrònic."
+    },
+    "data": {
+      "title": "Dades personals tractades",
+      "intro": "Les dades que es poden tractar inclouen:",
+      "items": [
+        "Nom i cognoms",
+        "Adreça de correu electrònic",
+        "Contingut del missatge"
+      ]
+    },
+    "legalBasis": {
+      "title": "Legitimació",
+      "text": "La base legal per al tractament de les dades és el consentiment de l’usuari, atorgat en enviar el formulari de contacte."
+    },
+    "retention": {
+      "title": "Conservació de les dades",
+      "text": "Les dades personals es conservaran durant el temps necessari per atendre la sol·licitud de l’usuari i, si escau, per complir amb les obligacions legals aplicables."
+    },
+    "sharing": {
+      "title": "Comunicació de dades a tercers",
+      "text": "No es comunicaran dades personals a tercers, excepte obligació legal."
+    },
+    "rights": {
+      "title": "Drets de l’usuari",
+      "intro": "L’usuari pot exercir els següents drets en relació amb les seves dades personals:",
+      "items": [
+        "Dret d’accés",
+        "Dret de rectificació",
+        "Dret de supressió",
+        "Dret d’oposició",
+        "Dret a la limitació del tractament",
+        "Dret a la portabilitat de les dades"
+      ],
+      "exercise": "Per exercir aquests drets, pot enviar una sol·licitud al correu electrònic indicat anteriorment.",
+      "claim": "Així mateix, té dret a presentar una reclamació davant l’Agència Espanyola de Protecció de Dades (AEPD):"
+    }
+  },
+
+  "footer_title": "Treballem junts en el teu proper projecte",
+  "footer_description": "Arquitectura clàssica amb mirada contemporània",
+  "footer_copyright": "Trifori Arquitectes. Tots els drets reservats",
+  "footer_made_by": "Creat amb cura · Dissenyat i desenvolupat per <a href='https://github.com/ycamarasa'>y.camarasa</a>"
+}

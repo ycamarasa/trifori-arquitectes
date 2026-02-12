@@ -1,0 +1,274 @@
+{
+  "header_about_us": "About Us",
+  "header_projects": "Projects",
+  "header_services": "Services",
+  "header_contact": "Contact",
+
+  "homepage_meta_title": "Home Page | Trifori Architects",
+  "homepage_meta_description": "Trifori Architects: studio specializing in architecture, interior design, and space renovation. We create unique, personalized projects.",
+  "homepage_alt_house": "Trifori Architects' House",
+  "homepage_alt_bkg": "Trifori Architects' architectural plan",
+  "homepage_title": "We design",
+  "homepage_title_2": "and building",
+  "homepage_title_3": "your space",
+
+  "about_meta_title": "About Us | Trifori Architects",
+  "about_meta_description": "Architecture studio specialized in renovation, interior design, and bespoke architectural projects.",
+  "about__title_1": "About Us",
+  "about__alt-img": "Technical Architect Laia Fustegueras",
+  "about__title_2": "Who We Are",
+  "about_paragraph_1": "<strong>Trifori Arquitectes</strong> is a multidisciplinary creative studio based in Lleida, Spain. We develop architecture projects, interior design, and bespoke solutions, understanding each commission as an opportunity to create spaces with identity and meaning.",
+  "about_paragraph_2": "Our approach is rooted in a sensitive and rigorous view of architecture. We are a team of architects and designers passionate about conceiving spaces that inspire and endure, where the relationship between people and their environment becomes the central axis of each project.",
+  "about_paragraph_3": "The studio is formed by <strong>Vicenç Rufach Fornons</strong>, architect, and <strong>Laia Fustegueras Mir</strong>, technical architect. The combination of a creative vision and a solid technical foundation allows us to approach each project in a personalized way, taking care of both the concept and its correct execution.",
+  "about_paragraph_4": "We work nationally and internationally with diverse clients in the fields of retail, multi-family housing, residential projects, and single-family homes. We are dedicated to architecture, technical direction, and construction, accompanying each project from the initial idea to its final materialization.",
+  "about_paragraph_5": "We want to bring your project to life with commitment, precision, and sensitivity.",
+  "about_paragraph_": "Our goal is to shape honest, functional, and long-lasting spaces, capable of responding to the real needs of those who inhabit them.",
+  "about_services_title": "What We Do",
+  "about_service1_title": "New Construction",
+  "about_service1_description": "Multi-family buildings, residential projects, and single-family homes.",
+  "about_service2_title": "Rehabilitations",
+  "about_service2_description": "Transformation and improvement of existing spaces.",
+  "about_service3_title": "ITE",
+  "about_service3_description": "Technical Building Inspection and rehabilitacions.",
+  "about_service4_title": "Habitability Certificates",
+  "about_service4_description": "Complete certification management.",
+  "about_service5_title": "Energy Efficiency",
+  "about_service5_description": "Energy certificates and consulting.",
+  "about_service6_title": "Grants",
+  "about_service6_description": "Grant applications, Next Generation.",
+  "about_service7_title": "Accessibility",
+  "about_service7_description": "Removal of architectural barriers.",
+  "about_service8_title": "Cultural Outreach",
+  "about_service8_description": "interviews, outreach and collaborations.",
+  "about_link": "More information +",
+  "about_aria-label_link": "about",
+
+  "projects_meta_title": "Projects | Trifori Architects",
+  "projects_meta_description": "Architecture studio specialized in renovation, interior design, and bespoke architectural projects.",
+  "projects_title": "Projects",
+  "projects_description": "This section presents a selection of some of the projects we have developed over more than twenty years of experience. Each project reflects our approach to architecture, attention to detail, and the dialogue between space, context, and people. A showcase of a path built with experience, commitment, and passion for the craft.",
+  "projects_aria-label_buttons": "See more images of the project",
+  "projects": {
+    "items": {
+      "1": {
+        "title": "Cappont Building",
+        "location": "Lleida",
+        "images": ["/assets/p1.webp"],
+        "description": "Modern multi-family dwelling designed with functional and aesthetic solutions."
+      },
+      "2": {
+        "title": "Ilerda House",
+        "location": "Lleida",
+        "images": ["/assets/p2.webp"],
+        "description": "Single-family home with contemporary design featuring open and bright spaces."
+      },
+      "3": {
+        "title": "Downtown Building Rehabilitation",
+        "location": "Lleida",
+        "images": ["/assets/p3_1.webp", "/assets/p3_2.webp"],
+        "description": "Renovation of a historic building in the city center, preserving its original character."
+      },
+      "4": {
+        "title": "Lobby Rehabilitation",
+        "location": "Lleida",
+        "images": ["/assets/p4_1.webp", "/assets/p4_2.webp"],
+        "description": "Update of a building lobby, combining functionality with modern aesthetics."
+      },
+      "5": {
+        "title": "Hall Rehabilitation",
+        "location": "Lleida",
+        "images": ["/assets/p5.webp"],
+        "description": "Intervention in the lobby to improve accessibility and renew common spaces."
+      },
+      "6": {
+        "title": "School Elevator",
+        "location": "Lleida",
+        "images": ["/assets/p6.webp"],
+        "description": "Installation of an elevator to remove architectural barriers and improve mobility."
+      },
+      "7": {
+        "title": "Alcarràs House",
+        "location": "Alcarràs",
+        "images": ["/assets/p7.webp"],
+        "description": "Classic-style single-family home, with spacious and well-connected spaces."
+      },
+      "8": {
+        "title": "Single-Family Home",
+        "location": "Lleida",
+        "images": ["/assets/p8.webp"],
+        "description": "Contemporary detached house with functional design and attention to detail."
+      },
+      "9": {
+        "title": "Lima Building (Peru)",
+        "location": "Lleida",
+        "images": ["/assets/p9.webp"],
+        "description": "Multi-family building designed for comfort, accessibility, and modern aesthetics."
+      },
+      "10": {
+        "title": "Lleida Building",
+        "location": "Lleida",
+        "images": ["/assets/p10.webp"],
+        "description": "Residential multi-family project with bright spaces and contemporary design."
+      },
+      "11": {
+        "title": "Residential Complex",
+        "location": "Lleida",
+        "images": ["/assets/p11.webp"],
+        "description": "Residential building focusing on comfort, accessibility, and modern aesthetics."
+      },
+      "12": {
+        "title": "Pardinyes Building",
+        "location": "Lleida",
+        "images": ["/assets/p12.webp"],
+        "description": "Residential complex with functional solutions, bright spaces, and contemporary design."
+      }
+    }
+  },
+
+  "faq_meta_title": "FAQ | Trifori Architects",
+  "faq_meta_description": "Check Trifori Architects' frequently asked questions about our architecture, interior design, and space renovation services.",
+  "faq_title": "Services",
+  "details": {
+    "2": {
+      "title": "Renovations and Refurbishments",
+      "paragraph1": "The Association of Building Surveyors, Technical Architects and Building Engineers of Lleida (CAATLL) has launched an awareness campaign on the importance of renovation through the REHABILITA programme.",
+      "paragraph2": "<strong>Laia Fustegueras Mir</strong>, technical architect at TRIFORI ARQUITECTES, collaborates with the Association of Building Surveyors to explain what the ITE is and why it is important for buildings to undergo this inspection.",
+      "steps": [
+        "<strong>The Environment.</strong> The key is to recover existing buildings and reuse them by adapting them to our current needs.",
+        "<strong>Urban fabric maintenance and sustainable urban growth.</strong> By renovating historic urban areas, we create cities that are more practical, accessible, well-balanced and, ultimately, offer better ways of living.",
+        "<strong>Social cohesion and coexistence.</strong> Renovation helps prevent the strong segregation that often occurs between old neighbourhoods and buildings versus new areas and developments.",
+        "<strong>The economy.</strong> Renovation creates jobs and represents significant savings compared to purchasing a new home."
+      ],
+      "paragraph3": "The most common renovation interventions include improvements in energy efficiency, changes in interior layouts and materials, accessibility upgrades, and the conservation and maintenance of buildings.",
+      "paragraph4": "At TRIFORI ARQUITECTES we can help you with any of these matters. Get in touch with us!"
+    },
+    "3": {
+      "title": "Technical Building Inspection (ITE)",
+      "paragraph1": "It allows us to carry out a thorough assessment of the state of conservation and the need for maintenance or renovation of a building. It is mandatory for buildings that are <strong>over 45 years old</strong>, in accordance with Decree 67/2015, and is an essential requirement when applying for renovation grants or for the removal of architectural barriers.",
+      "paragraph2": "However, the real importance of carrying out the ITE lies in the fact that it allows building owners to plan renovation and maintenance works in advance. This prevents unexpected situations, such as façade detachments, which may lead to enforcement orders requiring urgent repairs with very short deadlines and no time to request quotations. By anticipating the inspection, improvisation is avoided, as building deficiencies can be detected early, whether minor, significant, serious or very serious. This provides time to obtain quotes and find the best solution, which would otherwise not be possible due to the lack of manoeuvring time.",
+      "paragraph3": "In addition, it often allows minor deficiencies with low repair costs to be detected in time, preventing them from becoming serious issues that could represent a much greater problem for owners or homeowners’ associations.",
+      "paragraph4": "The final objective of the inspection is for the building to obtain a certificate of suitability with an APTO (SUITABLE) rating, valid for 10 years, and for owners to have maintenance guidelines that ensure buildings are, above all, safer for everyone."
+    },
+    "4": {
+      "title": "Second-occupancy habitability certificates",
+      "paragraph1": "Do you need to rent or sell a property and are unsure whether your habitability certificate is valid? Do you need to renew it? Does your home not have a certificate and you need one?",
+      "paragraph2": "The habitability certificate is an administrative document that certifies that a dwelling meets the minimum habitability conditions established by current regulations and is suitable for residential use.",
+      "paragraph3": "To obtain a second-occupancy habitability certificate, the following steps must be followed:",
+      "steps": [
+        "Get in touch with us.",
+        "We will check whether the property has a certificate and whether it is valid or expired.",
+        "We will visit the property to carry out the inspection.",
+        "We will prepare the technical certificate and process the habitability certificate online, including payment of the Housing Department fee.",
+        "Once the certificate is issued in PDF format, we will send it to you."
+      ],
+      "paragraph4": "As you can see, it is easier than it seems, and we take care of the entire process until the certificate is obtained."
+    },
+    "5": {
+      "title": "Energy Efficiency",
+      "paragraph1": "Do you need to rent or sell a property and are being asked for an energy certificate? Do you want to apply for renovation grants? Are you looking to improve the energy efficiency of a home or building?",
+      "paragraph2": "<strong>The energy efficiency label</strong> is the indicator that shows the level of energy efficiency achieved by a building or parts of a building. <strong>The energy efficiency rating</strong> is the result of calculating the energy consumption required to meet the building’s energy demand under normal operating and occupancy conditions. Buildings are classified on a scale from A to G, where A represents the most efficient buildings and G the least efficient. Energy consumption and CO2 emissions are compared with those of a reference building of similar typology and location.",
+      "paragraph3": "What do I need?",
+      "steps": [
+        "Get in touch with us.",
+        "We will carry out a visit to the dwelling or building to define enclosures, openings, installations, layout, orientation, and other relevant aspects.",
+        "All this data will be entered into a software application that generates the energy efficiency report and corresponding rating.",
+        "We will process the energy label application with the ICAEN and send it to you in PDF format once received."
+      ],
+      "paragraph4": "As you can see, it is easier than it seems, and we take care of the entire process until the energy label is obtained.",
+      "paragraph5": "We can obtain the label for a single dwelling or for an entire building by generating a single energy efficiency rating.",
+      "paragraph6": "The energy certificate is mandatory for property sales, rentals, and when applying for renovation grants.",
+      "paragraph7": "In addition, it allows you to improve the energy efficiency of your home or building through the improvement measures outlined in the report, thereby increasing its energy rating."
+    },
+    "6": {
+      "title": "Next Generation Grants",
+      "paragraph1": "You have surely heard about them, as the “Next Generation” grants are on everyone’s lips. There are grants available for almost everything related to energy efficiency, as well as for business digitalisation or the purchase of electric vehicles, but let’s focus on what concerns us here.",
+      "paragraph2": "At TRIFORI ARQUITECTES we are actively involved in processing these ENERGY RENOVATION GRANTS FOR BUILDINGS, both under PROGRAMME 3 and PROGRAMME 4.",
+      "paragraph3": "If you are considering renovating your home (window replacement, heating system upgrades, façade insulation, etc.), contact us.",
+      "paragraph4": "Unfortunately, at present, THERE ARE NO GRANTS FOR THE REMOVAL OF ARCHITECTURAL BARRIERS unless they are included as part of an energy renovation of the building."
+    },
+    "8": {
+      "title": "Cultural Outreach",
+      "paragraph1": "Laia Fustegueras Mir, technical architect at TRIFORI ARQUITECTES, collaborates with the Association of Building Surveyors to explain what the ITE is and why it is important for buildings to undergo this inspection.",
+      "paragraph2": "https://www.youtube.com/watch?v=4ZL1z63yIYg",
+      "paragraph3": "In this video you can watch our participation in the Lleida TV programme – Diari de Nit – Magazine, presented by Marivi Chacón, where together with building surveyor Federic Lorente we discussed Technical Building Inspections (ITE).",
+      "paragraph4": "https://www.instagram.com/p/CIofowrohBw/"
+    }
+  },
+
+  "contact_meta_title": "Contact | Trifori Architects",
+  "contact_meta_description": "Get in touch with Trifori Architects to inquire about our architecture, interior design, and space renovation services.",
+  "contact_title": "Let's talk about your project",
+  "contact_subtitle": "Every project begins with a conversation. Tell us your idea and we'll explore how to help you make it a reality. Request your budget without obligation and we'll start shaping your project.",
+  "contact_address": "Jaume II Street, 9, 25001 Lleida",
+  "contact_email_subject": "Inquiry about a project",
+  "contact_email_body": "Hi Laia,",
+
+  "tooltip_whatsapp": "Send WhatsApp Message",
+  "message_whatsapp": "Hello, I'm interested in contacting you to discuss my project.",
+
+  "form_name": "Name",
+  "form_lastName": "Last Name",
+  "form_email": "Email",
+  "form_phone": "Phone",
+  "form_message": "Tell us about your project",
+  "form_button": "Send",
+  "form_sending": "Sent",
+  "form_success": "Your message has been sent successfully! Thank you for contacting us. We will get in touch with you shortly.",
+  "form_error": "There was an error sending the form. We apologize for the inconvenience. <br/> You can send us an email at laia@trifori.com",
+  "form_field_error": "Too short",
+  "form_field_email_error": "It's not valid",
+
+  "privacyPolicy_meta_title": "Privacy Policy | Trifori Architects",
+  "privacyPolicy_meta_description": "Read Trifori Architects' Privacy Policy to understand how we securely protect and manage your personal data.",
+  "privacyPolicy_title": "Privacy Policy",
+  "sections": {
+    "controller": {
+      "title": "Data Controller",
+      "responsible": "Controller",
+      "company": "TRIFORI ARQUITECTES, SLP",
+      "vat": "VAT / Tax ID",
+      "address": "Address",
+      "email": "Email"
+    },
+    "purpose": {
+      "title": "Purpose of data processing",
+      "text": "Personal data provided through this website will be used solely to respond to enquiries submitted via the contact form or email."
+    },
+    "data": {
+      "title": "Personal data processed",
+      "intro": "The data that may be processed includes:",
+      "items": ["Full name", "Email address", "Message content"]
+    },
+    "legalBasis": {
+      "title": "Legal basis",
+      "text": "The legal basis for processing the data is the user’s consent, given when submitting the contact form."
+    },
+    "retention": {
+      "title": "Data retention",
+      "text": "Personal data will be retained for the time necessary to handle the request and, where applicable, to comply with legal obligations."
+    },
+    "sharing": {
+      "title": "Data sharing with third parties",
+      "text": "Personal data will not be shared with third parties, except where required by law."
+    },
+    "rights": {
+      "title": "User rights",
+      "intro": "Users may exercise the following rights regarding their personal data:",
+      "items": [
+        "Right of access",
+        "Right to rectification",
+        "Right to erasure",
+        "Right to object",
+        "Right to restriction of processing",
+        "Right to data portability"
+      ],
+      "exercise": "To exercise these rights, users may send a request to the email address indicated above.",
+      "claim": "Users also have the right to lodge a complaint with the Spanish Data Protection Agency (AEPD):"
+    }
+  },
+
+  "footer_title": "Let’s work together on your next project",
+  "footer_description": "Classical architecture with a contemporary look",
+  "footer_copyright": "Trifori Arquitectes. All rights reserved",
+  "footer_made_by": "Crafted with care · Powered by <a href='https://github.com/ycamarasa'>y.camarasa</a>"
+}

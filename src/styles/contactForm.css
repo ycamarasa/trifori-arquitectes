@@ -1,0 +1,134 @@
+.contact-form input:-webkit-autofill,
+.contact-form textarea:-webkit-autofill,
+.contact-form select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px var(--color-accent) inset;
+  -webkit-text-fill-color: var(--color-neutral-10);
+  transition: background-color 9999s ease-in-out 0s;
+  z-index: 10000;
+}
+
+.field input:-webkit-autofill + label,
+.field textarea:-webkit-autofill + label {
+  background-color: transparent;
+  color: var(--color-neutral-1);
+  z-index: 1;
+}
+
+.contact-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-neutral-5);
+  padding: 10px 0;
+  color: var(--color-neutral-10);
+  font-size: 1rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--color-neutral-1);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-bottom-color: var(--color-neutral-10);
+}
+
+.contact-form button {
+  width: fit-content;
+  margin-top: 24px;
+  background: var(--color-neutral-10);
+  border: 0;
+  border-radius: 0;
+  color: var(--color-neutral-0);
+  padding: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: var(--color-accent);
+  color: var(--color-neutral-10);
+}
+
+/* Floating labels */
+.field {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 0;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+  background: transparent;
+}
+
+.field label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  font-size: 14px;
+  color: var(--color-neutral-10);
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+  padding: 0 4px;
+}
+
+.field.textarea label {
+  top: 1rem;
+}
+
+.field input:focus + label,
+.field input:not(:placeholder-shown) + label,
+.field textarea:focus + label,
+.field textarea:not(:placeholder-shown) + label {
+  top: -6px;
+  font-size: 12px;
+  color: var(--color-neutral-10);
+}
+
+.field span {
+  font-size: 10px;
+  color: var(--color-error);
+}
+
+.field:has(span) label {
+  top: -6px;
+  font-size: 12px;
+  color: var(--color-neutral-10);
+}
+
+/* RESPONSIVE */
+/* Small desktop */
+@media (max-width: 1439px) {
+  .form__row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-form button {
+    width: 100%;
+    text-align: center;
+  }
+}

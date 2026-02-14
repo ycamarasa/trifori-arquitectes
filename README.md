@@ -11,7 +11,7 @@ Este repositorio contiene el portfolio del estudio de arquitectura "Trifori Arqu
 
 ## Características principales
 
-- Multilenguaje con `react-i18next` (carpetas en `src/locales` para `cat`, `en`, `es`).
+- Multilenguaje con `react-i18next` (carpetas en `src/locales` para `ca`, `en`, `es`).
 - Formularios con `react-hook-form` y validación con `zod` (`src/components/ContactForm.tsx`, `contactFormSchema.ts`).
 - Integración de mapa con `mapbox-gl` (`src/components/Map.tsx`).
 - Componentes para proyectos, carrusel e incrustaciones sociales (`ProjectCard`, `ProjectCarousel`, `InstagramEmbed`).
@@ -117,7 +117,7 @@ This repository contains the portfolio of the architecture studio "Trifori Arqui
 
 ## Main Features
 
-- Multilingual support with `react-i18next` (folders in `src/locales` for `cat`, `en`, `es`).
+- Multilingual support with `react-i18next` (folders in `src/locales` for `ca`, `en`, `es`).
 - Forms with `react-hook-form` and validation with `zod` (`src/components/ContactForm.tsx`, `contactFormSchema.ts`).
 - Map integration with `mapbox-gl` (`src/components/Map.tsx`).
 - Components for projects, carousel, and social embeds (`ProjectCard`, `ProjectCarousel`, `InstagramEmbed`).

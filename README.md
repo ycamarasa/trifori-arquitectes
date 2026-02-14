@@ -109,6 +109,10 @@ Para dudas o cambios relacionados con el contenido, contactar con y.camarasa@gma
 # English Section
 ## Trifori Arquitectes — Portfolio
 
+<br/>
+
+<img src="./public/assets/logo-black.png" />
+
 This repository contains the portfolio of the architecture studio "Trifori Arquitectes", built with React, TypeScript, and Vite. It is prepared for multiple languages (cat, en, es) and features reusable components to present projects, contact form, map, and social networks.
 
 ## Main Features

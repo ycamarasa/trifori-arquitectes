@@ -2,6 +2,8 @@
 
 ## Trifori Arquitectes — Portfolio
 
+<br/>
+
 <img src="./public/assets/logo-black.png" />
 
 

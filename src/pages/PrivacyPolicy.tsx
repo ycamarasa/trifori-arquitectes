@@ -78,6 +78,7 @@ export default function PrivacyPolicy() {
             href="https://www.aepd.es"
             target="_blank"
             rel="noopener noreferrer"
+            className="legal-pages__link"
           >
             www.aepd.es
           </a>

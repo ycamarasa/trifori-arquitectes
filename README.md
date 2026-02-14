@@ -2,7 +2,7 @@
 
 ## Trifori Arquitectes — Portfolio
 
-<img src="./assets/logo-black.png" />
+<img src="./public/assets/logo-black.png" />
 
 
 Este repositorio contiene el portfolio del estudio de arquitectura "Trifori Arquitectes", construida con React, TypeScript y Vite. Está preparada para varias lenguas (cat, en, es) y cuenta con componentes reutilizables para presentar proyectos, formulario de contacto, mapa y redes sociales.

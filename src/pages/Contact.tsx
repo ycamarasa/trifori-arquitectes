@@ -34,8 +34,13 @@ export default function Contact() {
 
             <div>
               <p>{t("contact_address")}</p>
-              <p>[+34] 973 212 064</p>
-              <a href="tel:+34659933722" className="contact_phone">[+34] 659 933 722</a>
+              <a href="tel:+34973212064" className="contact_phone">
+                [+34] 973 212 064
+              </a>
+              <br/>
+              <a href="tel:+34659933722" className="contact_phone">
+                [+34] 659 933 722
+              </a>
 
               <p>
                 Email:{" "}

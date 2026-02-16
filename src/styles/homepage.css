@@ -39,24 +39,18 @@ body:not(.homepage) ::selection {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  animation: contract linear forwards;
-  animation-timeline: scroll(root);
-  animation-range: 0vh 100dvh;
+  animation: contract 5s linear forwards;
 }
 
 .homepage__house {
   margin-top: 80px;
-  animation: upscale linear forwards;
-  animation-timeline: scroll(root);
-  animation-range: 0vh 60vh;
+  animation: upscale 5s linear forwards;
   z-index: 3;
   pointer-events: none;
 }
 
 .homepage__bkg {
-  animation: unblur linear forwards;
-  animation-timeline: scroll(root);
-  animation-range: 0vh 100dvh;
+  animation: unblur 5s linear forwards;
   z-index: 1;
   pointer-events: none;
   margin-bottom: 30px;

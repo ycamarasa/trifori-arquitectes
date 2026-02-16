@@ -17,11 +17,7 @@ export default function Projects() {
 
       <section className="projects-grid">
         {projects.map(([id, project], index) => (
-          <ProjectCard
-            key={id}
-            project={project}
-            isFirst={index === 0} 
-          />
+          <ProjectCard key={id} project={project} isFirst={index === 0} />
         ))}
       </section>
     </div>

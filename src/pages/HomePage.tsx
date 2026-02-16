@@ -6,56 +6,24 @@ import "../styles/homepage.css";
 export default function Homepage() {
   const { t } = useTranslation();
 
-  const scrollDown = () => {
-    const start = window.scrollY;
-    const target = window.innerHeight;
-    const duration = 4000;
-    let startTime: number | null = null;
-
-    const step = (timestamp: number) => {
-      if (!startTime) startTime = timestamp;
-      const progress = Math.min((timestamp - startTime) / duration, 1);
-      const ease =
-        progress < 0.5
-          ? 2 * progress * progress
-          : -1 + (4 - 2 * progress) * progress;
-
-      window.scrollTo(0, start + (target - start) * ease);
-
-      if (progress < 1) requestAnimationFrame(step);
-    };
-
-    requestAnimationFrame(step);
-  };
-
   useMeta(t("homepage_meta_title"), t("homepage_meta_description"));
 
   useEffect(() => {
-    // Bloquear scroll del usuario
-    const preventScroll = (e: Event) => e.preventDefault();
+    const originalOverflow = document.body.style.overflow;
+    const originalHtmlOverflow = document.documentElement.style.overflow;
+    const originalPosition = document.body.style.position;
+    const originalWidth = document.body.style.width;
+
     document.body.style.overflow = "hidden";
-    window.addEventListener("wheel", preventScroll, { passive: false });
-    window.addEventListener("touchmove", preventScroll, { passive: false });
+    document.documentElement.style.overflow = "hidden";
+    document.body.style.position = "fixed";
+    document.body.style.width = "100%";
 
-    // Scroll inicial y animación
-    window.scrollTo(0, 0);
-    const timeout = setTimeout(scrollDown, 1000);
-
-    const handleDblClick = () => {
-      window.scrollTo(0, 0);
-      scrollDown();
-    };
-    window.addEventListener("dblclick", handleDblClick);
-
-    // Cleanup al desmontar
     return () => {
-      clearTimeout(timeout);
-      window.removeEventListener("dblclick", handleDblClick);
-
-      // Desbloquear scroll
-      document.body.style.overflow = "";
-      window.removeEventListener("wheel", preventScroll);
-      window.removeEventListener("touchmove", preventScroll);
+      document.body.style.overflow = originalOverflow;
+      document.documentElement.style.overflow = originalHtmlOverflow;
+      document.body.style.position = originalPosition;
+      document.body.style.width = originalWidth;
     };
   }, []);
 
@@ -71,13 +39,13 @@ export default function Homepage() {
         </h1>
 
         <picture className="homepage__bkg-wrapper">
-          {/* Imagen mobile */}
+          {/* mobile image*/}
           <source
             srcSet="/assets/plano_mobile.webp"
             media="(max-width: 768px)"
             type="image/webp"
           />
-          {/* Imagen desktop */}
+          {/* desktop image*/}
           <img
             src="/assets/plano.webp"
             alt={t("homepage_alt_bkg")}

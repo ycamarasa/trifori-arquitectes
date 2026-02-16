@@ -9,8 +9,8 @@ export default function FAQ() {
   const { t } = useTranslation();
   const [searchParams, setSearchParams] = useSearchParams();
   const activeId = searchParams.get("id")
-  ? Number(searchParams.get("id"))
-  : null;
+    ? Number(searchParams.get("id"))
+    : null;
 
   useMeta(t("faq_meta_title"), t("faq_meta_description"));
 
@@ -44,7 +44,9 @@ export default function FAQ() {
         </div>
       </div>
 
-      {activeId && <FAQDetails id={activeId} title={t(`details.${activeId}.title`)} />}
+      {activeId && (
+        <FAQDetails id={activeId} title={t(`details.${activeId}.title`)} />
+      )}
     </>
   );
 }

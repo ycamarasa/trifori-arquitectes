@@ -4,7 +4,6 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  useLocation,
   Navigate,
 } from "react-router-dom";
 import { useEffect } from "react";
@@ -20,22 +19,12 @@ const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 
 import "./App.css";
 
-function ScrollToHash() {
+function DocumentLanguage() {
   const { i18n } = useTranslation();
-  const location = useLocation();
 
   useEffect(() => {
     document.documentElement.lang = i18n.language;
   }, [i18n.language]);
-
-  useEffect(() => {
-    if (location.hash) {
-      const element = document.querySelector(location.hash);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-  }, [location]);
 
   return null;
 }
@@ -43,7 +32,7 @@ function ScrollToHash() {
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToHash />
+      <DocumentLanguage />
       <Header />
 
       <main>

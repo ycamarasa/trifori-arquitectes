@@ -1,7 +1,5 @@
 # Sección Español
 
-## Trifori Arquitectes — Portfolio
-
 <br/>
 
 <img src="./public/assets/logo-black.png" />
@@ -107,7 +105,6 @@ Para dudas o cambios relacionados con el contenido, contactar con y.camarasa@gma
 ---
 
 # English Section
-## Trifori Arquitectes — Portfolio
 
 <br/>
 

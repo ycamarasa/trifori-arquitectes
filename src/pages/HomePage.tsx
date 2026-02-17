@@ -1,29 +1,73 @@
 import { useTranslation } from "react-i18next";
 import { useMeta } from "../hooks/use-meta";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import "../styles/homepage.css";
 
 export default function Homepage() {
   const { t } = useTranslation();
+  const animationFrameRef = useRef<number | null>(null);
+
+  const scrollDown = () => {
+    const start = window.scrollY;
+    const target = window.innerHeight;
+    const duration = 4000;
+    let startTime: number | null = null;
+
+    const step = (timestamp: number) => {
+      if (!startTime) startTime = timestamp;
+      const progress = Math.min((timestamp - startTime) / duration, 1);
+      const ease =
+        progress < 0.5
+          ? 2 * progress * progress
+          : -1 + (4 - 2 * progress) * progress;
+
+      window.scrollTo(0, start + (target - start) * ease);
+
+      if (progress < 1) animationFrameRef.current = requestAnimationFrame(step);
+    };
+
+    animationFrameRef.current = requestAnimationFrame(step);
+  };
 
   useMeta(t("homepage_meta_title"), t("homepage_meta_description"));
 
   useEffect(() => {
-    const originalOverflow = document.body.style.overflow;
-    const originalHtmlOverflow = document.documentElement.style.overflow;
-    const originalPosition = document.body.style.position;
-    const originalWidth = document.body.style.width;
+    // Bloquear scroll del usuario
+    const preventScroll = (e: Event) => e.preventDefault();
 
     document.body.style.overflow = "hidden";
-    document.documentElement.style.overflow = "hidden";
-    document.body.style.position = "fixed";
-    document.body.style.width = "100%";
 
+    window.addEventListener("wheel", preventScroll, { passive: false });
+    window.addEventListener("touchmove", preventScroll, { passive: false });
+
+    // Scroll inicial y animación
+    window.scrollTo(0, 0);
+
+    const timeout = setTimeout(scrollDown, 1000);
+
+    const handleDblClick = () => {
+      window.scrollTo(0, 0);
+      scrollDown();
+    };
+
+    window.addEventListener("dblclick", handleDblClick);
+
+    // Cleanup al desmontar
     return () => {
-      document.body.style.overflow = originalOverflow;
-      document.documentElement.style.overflow = originalHtmlOverflow;
-      document.body.style.position = originalPosition;
-      document.body.style.width = originalWidth;
+      clearTimeout(timeout);
+      window.removeEventListener("dblclick", handleDblClick);
+
+      // Desbloquear scroll
+      window.removeEventListener("wheel", preventScroll);
+      window.removeEventListener("touchmove", preventScroll);
+
+      document.body.style.overflow = "auto";
+
+      // 🔥 Cancelar animación si sigue activa
+      if (animationFrameRef.current !== null) {
+        cancelAnimationFrame(animationFrameRef.current);
+      }
+      window.scrollTo(0, 0);
     };
   }, []);
 
